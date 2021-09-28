@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url('../imgs/eaters-collective-132772-unsplash.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.box {
+	width: 350px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,.8);
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+}
+.box h1{
+	color: #f1f1f1;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.box p{
+	color: #f1f1f1;
+}
+.box input[type = "text"], .box input[type = "password"] {
+	border: 0;
+	outline: none;
+	background: none;
+	display: block;
+	text-align: center;
+	border: 2px solid #FAD859;
+	margin: 20px auto;
+	padding: 14px 15px;
+	width: 140px;
+	border-radius: 24px;
+	color: #f1f1f1;
+	transition: 0.5s;
+}
+.box input[type = "text"]:hover, .box input[type = "password"]:hover {
+	width: 200px;
+	border: 2px solid #EB9532;
+}
+.box input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	text-align: center;
+	color: #f1f1f1;
+	border: 2px solid #FAD859;
+	margin: 20px auto;
+	padding: 14px 10px;
+	border-radius: 24px;
+	width: 100px;
+	transition: 0.5s;
+}
+.box input[type = "submit"]:hover{
+	background-color: #EB9532;
+	border: 2px solid #EB9532;
+
+}
+.box input[type = "radio"] {
+	display: inline-table;
+}
